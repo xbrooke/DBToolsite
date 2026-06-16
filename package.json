@@ -1,0 +1,10 @@
+{
+  "name": "dbtool-website",
+  "version": "1.1.0",
+  "description": "DBTOOL 2.0 官方网站 - Apple HIG 风格静态站",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes serve@14.2.3 -l 5173 .",
+    "build": "echo \"Static site, nothing to build.\" && exit 0"
+  }
+}

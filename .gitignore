@@ -1,0 +1,10 @@
+node_modules/
+.serve/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+serve.log
+_preview.ps1
+_preview.cmd
+_serve_bg.ps1

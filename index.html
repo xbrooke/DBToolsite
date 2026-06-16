@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>DBTOOL — 让方控识别你的音乐</title>
+  <meta name="description" content="DBTOOL 是一款面向 Android 8.0+ 车载信息娱乐系统的媒体桥接工具，让任意第三方音乐 App 都能在中控、仪表、HUD 上显示，并支持方向盘按键控制。" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="color-scheme" content="light" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DBTOOL — 让方控识别你的音乐" />
+  <meta property="og:description" content="让任意第三方音乐 App 接入车机媒体中心：媒体信息同步、方向盘按键控制、三屏显示、零侵入式工作。" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DBTOOL — 让方控识别你的音乐" />
+  <meta name="twitter:description" content="让任意第三方音乐 App 接入车机媒体中心：媒体信息同步、方向盘按键控制、三屏显示、零侵入式工作。" />
+
+  <!-- Canonical + APK 直链 -->
+  <link rel="canonical" href="apk/DBTool_v1.0.1_signed_20260616_130116_101_jiagu_17133569.apk" />
+
+  <!-- Favicon：渐变 D 字母 -->
+  <link rel="icon" href="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'&gt;&lt;defs&gt;&lt;linearGradient id='g' x1='0' y1='0' x2='1' y2='1'&gt;&lt;stop offset='0' stop-color='%237B61FF'/&gt;&lt;stop offset='1' stop-color='%230071E3'/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;rect width='64' height='64' rx='14' fill='url(%23g)'/&gt;&lt;text x='50%25' y='54%25' text-anchor='middle' font-family='-apple-system,SF Pro Display,Helvetica,Arial' font-size='30' font-weight='700' fill='white' dominant-baseline='middle'&gt;D&lt;/text&gt;&lt;/svg&gt;" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- 结构化数据：SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DBTOOL",
+    "operatingSystem": "Android 8.0+",
+    "applicationCategory": "MultimediaApplication",
+    "description": "通用车载媒体桥接工具",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "CNY"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============== Navigation ============== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">
+        <span class="nav__brand-mark" aria-hidden="true">D</span>
+        <span class="nav__brand-text">DBTOOL</span>
+      </a>
+      <nav class="nav__menu" aria-label="主导航">
+        <a href="#features">功能</a>
+        <a href="#specs">性能</a>
+        <a href="#apps">支持应用</a>
+        <a href="apk/DBTool_v1.0.1_signed_20260616_130116_101_jiagu_17133569.apk" class="nav__cta" download>下载</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============== Hero ============== -->
+    <section class="hero">
+      <div class="hero__grain" aria-hidden="true"></div>
+      <a class="hero__badge reveal" href="#download" aria-label="查看 v1.0.1 更新内容">
+        <span class="hero__badge-dot" aria-hidden="true"></span>
+        <span class="hero__badge-text">v1.0.1 已发布</span>
+        <span class="hero__badge-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <h1 class="hero__title reveal">让方控<br />识别你的<span class="hero__title-accent">音乐</span>。</h1>
+      <p class="hero__subtitle reveal">
+        DBTOOL 把任意第三方音乐 App 接入车载信息娱乐系统的媒体中心。<br />
+        中控、仪表、HUD 完整显示，方向盘按键即开即用。
+      </p>
+
+      <div class="hero__ctas reveal">
+        <a class="btn btn--primary btn--lg btn--icon-arrow" href="apk/DBTool_v1.0.1_signed_20260616_130116_101_jiagu_17133569.apk" download>免费下载 · 5.45 MB</a>
+        <a class="btn btn--ghost btn--lg" href="#features">了解功能</a>
+      </div>
+
+      <p class="hero__meta reveal">
+        <span>Android 8.0+</span>
+        <span class="hero__meta-dot" aria-hidden="true">·</span>
+        <span>无需 Root</span>
+        <span class="hero__meta-dot" aria-hidden="true">·</span>
+        <span>5.45 MB</span>
+      </p>
+
+      <!-- Hero demo: 专辑 + 元数据 + 控制 + 进度 -->
+      <div class="hero__demo reveal" aria-hidden="true">
+        <div class="hero__demo-art">
+          <span class="hero__demo-art-glow"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--big"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--a"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--b"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--c"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--d"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--e"></span>
+          <span class="hero__demo-art-star hero__demo-art-star--f"></span>
+          <span class="hero__demo-art-shooting"></span>
+        </div>
+        <div class="hero__demo-info">
+          <p class="hero__demo-title">夜空中最亮的星</p>
+          <p class="hero__demo-artist">逃跑计划 · 世界</p>
+          <div class="hero__demo-progress" aria-hidden="true">
+            <div class="hero__demo-progress-bar"></div>
+          </div>
+          <p class="hero__demo-meta">
+            <span class="hero__demo-pill">正在播放</span>
+            <span class="hero__demo-time">1:38 / 4:08</span>
+          </p>
+        </div>
+        <div class="hero__demo-actions">
+          <span class="hero__demo-btn" title="上一首" aria-label="上一首">‹‹</span>
+          <span class="hero__demo-btn hero__demo-btn--play" title="播放/暂停" aria-label="播放/暂停">
+            <span class="hero__demo-eq" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </span>
+          </span>
+          <span class="hero__demo-btn" title="下一首" aria-label="下一首">››</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Features ============== -->
+    <section class="section" id="features">
+      <div class="section__head reveal">
+        <p class="section__eyebrow">核心能力</p>
+        <h2 class="section__title">透明、稳定、可控。</h2>
+        <p class="section__sub">无需改造第三方 App，无需后台常驻。DBTOOL 在系统通知层静默工作，让音乐继续在原 App 中播放。</p>
+      </div>
+
+      <div class="features">
+        <article class="feature reveal">
+          <span class="feature__badge feature__badge--icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+            </svg>
+          </span>
+          <h3 class="feature__title">媒体信息同步</h3>
+          <p class="feature__desc">实时同步歌曲名、艺术家、专辑、封面、播放进度，延迟低于 200ms。</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__badge feature__badge--icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-9L21 7.5m0 0L16.5 12M21 7.5H7.5"/>
+            </svg>
+          </span>
+          <h3 class="feature__title">方向盘控制</h3>
+          <p class="feature__desc">播放、暂停、上一曲、下一曲、音量调节。三重方控路由保障按键稳定响应。</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__badge feature__badge--icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6Z"/>
+              <path d="M13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6Z"/>
+              <path d="M3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25Z"/>
+              <path d="M13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/>
+            </svg>
+          </span>
+          <h3 class="feature__title">多应用识别</h3>
+          <p class="feature__desc">同时监听多个主流音乐 App，闭包捕获包名，自动切换展示。</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__badge feature__badge--icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 20.25h12m-7.5-3v3m-6-6.75h15a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5Z"/>
+            </svg>
+          </span>
+          <h3 class="feature__title">三屏显示</h3>
+          <p class="feature__desc">中控大屏、仪表盘、HUD 抬头显示同步呈现，信息布局为车机场景重制。</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__badge feature__badge--icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17.25 9v3.75a6.75 6.75 0 0 0 1.5 4.25H5.25a6.75 6.75 0 0 0 1.5-4.25V9a6.75 6.75 0 0 1 13.5 0Z"/>
+              <path d="M9 17.25v1.5a2.25 2.25 0 0 0 4.5 0v-1.5"/>
+              <path d="M4.5 4.5 19.5 19.5"/>
+            </svg>
+          </span>
+          <h3 class="feature__title">无焦点抢占</h3>
+          <p class="feature__desc">采用 DUCK 模式工作，不打断第三方 App 正在播放的音乐。</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__badge feature__badge--icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"/>
+            </svg>
+          </span>
+          <h3 class="feature__title">静默后台</h3>
+          <p class="feature__desc">通过标准通知监听接口主动转发媒体信息，对车机与手机都几乎无感。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============== Specs ============== -->
+    <section class="section section--alt" id="specs">
+      <div class="section__head reveal">
+        <p class="section__eyebrow">性能指标</p>
+        <h2 class="section__title">为车载场景稳定运行而设计。</h2>
+        <p class="section__sub">DBTOOL 基于系统标准的通知监听服务，零侵入式接入车载媒体管线。</p>
+      </div>
+
+      <div class="metrics reveal">
+        <div class="metric">
+          <p class="metric__value">50–60<span>MB</span></p>
+          <p class="metric__label">内存占用</p>
+          <p class="metric__hint">常驻运行时平均</p>
+        </div>
+        <div class="metric metric--accent">
+          <p class="metric__value">&lt;100<span>ms</span></p>
+          <p class="metric__label">方控响应</p>
+          <p class="metric__hint">按键到执行延迟</p>
+        </div>
+        <div class="metric">
+          <p class="metric__value">&lt;200<span>ms</span></p>
+          <p class="metric__label">信息同步</p>
+          <p class="metric__hint">元数据到车机</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Apps ============== -->
+    <section class="section" id="apps">
+      <div class="section__head reveal">
+        <p class="section__eyebrow">兼容应用</p>
+        <h2 class="section__title">主流音乐 App，开箱即用。</h2>
+        <p class="section__sub">基于标准 MediaSession 协议自动发现与适配，更多 App 通过通知监听自动覆盖。</p>
+      </div>
+
+      <div class="apps reveal">
+        <div class="app"><img src="img/网易云音乐-数亿音乐畅听-iOS-512x512.png" alt="网易云音乐" loading="lazy" /><span>网易云音乐</span></div>
+        <div class="app"><img src="img/QQ音乐 - 听我想听-iOS-512x512.png" alt="QQ 音乐" loading="lazy" /><span>QQ 音乐</span></div>
+        <div class="app"><img src="img/酷狗音乐 - 就是歌多-iOS-512x512.png" alt="酷狗音乐" loading="lazy" /><span>酷狗音乐</span></div>
+        <div class="app"><img src="img/酷我音乐-好音质用酷我-iOS-512x512.png" alt="酷我音乐" loading="lazy" /><span>酷我音乐</span></div>
+        <div class="app"><img src="img/Spotify_ Music and Podcasts-iOS-512x512.png" alt="Spotify" loading="lazy" /><span>Spotify</span></div>
+        <div class="app"><img src="img/Apple Music-iOS-512x512.png" alt="Apple Music" loading="lazy" /><span>Apple Music</span></div>
+        <div class="app"><img src="img/汽水音乐 - 随时听好歌-iOS-512x512.png" alt="汽水音乐" loading="lazy" /><span>汽水音乐</span></div>
+        <div class="app"><img src="img/波点音乐-QQ音乐简洁版-iOS-512x512.png" alt="波点音乐" loading="lazy" /><span>波点音乐</span></div>
+        <div class="app"><img src="img/番茄畅听-海量小说音乐评书全场畅听-iOS-512x512.png" alt="番茄畅听" loading="lazy" /><span>番茄畅听</span></div>
+        <div class="app"><img src="img/抖音-iOS-512x512.png" alt="抖音" loading="lazy" /><span>抖音</span></div>
+      </div>
+    </section>
+
+    <!-- ============== Compatibility ============== -->
+    <section class="section">
+      <div class="section__head reveal">
+        <p class="section__eyebrow">兼容性</p>
+        <h2 class="section__title">覆盖主流车载系统。</h2>
+        <p class="section__sub">以下范围基于实车测试覆盖的常见场景，具体机型请以实际效果为准。</p>
+      </div>
+
+      <div class="compat reveal">
+        <span class="chip chip--accent">Android 8.0+</span>
+        <span class="chip">NOS 车型</span>
+        <span class="chip">OSN 车型</span>
+        <span class="chip chip--muted">更多车型持续验证中</span>
+      </div>
+    </section>
+
+    <!-- ============== FAQ ============== -->
+    <section class="section section--alt" id="faq">
+      <div class="section__head reveal">
+        <p class="section__eyebrow">常见问题</p>
+        <h2 class="section__title">你想知道的都在这里。</h2>
+      </div>
+
+      <div class="faq reveal">
+        <details class="faq__item" open>
+          <summary>
+            <h3 class="faq__q">DBTOOL 会打断正在播放的音乐吗？</h3>
+            <svg class="faq__chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq__a">不会。DBTOOL 以 DUCK 模式工作，第三方 App 继续在原进程播放，DBTOOL 只在车机媒体中心同步显示与方控路由。</p>
+        </details>
+        <details class="faq__item">
+          <summary>
+            <h3 class="faq__q">支持哪些第三方音乐 App？</h3>
+            <svg class="faq__chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq__a">任何使用标准 MediaSession 协议、且开启通知的 App 都会被自动识别。具体列表见上方"兼容应用"区域。</p>
+        </details>
+        <details class="faq__item">
+          <summary>
+            <h3 class="faq__q">是否需要 Root 或越狱？</h3>
+            <svg class="faq__chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq__a">不需要。DBTOOL 仅依赖 Android 标准通知监听接口，普通车机系统即可使用。</p>
+        </details>
+        <details class="faq__item">
+          <summary>
+            <h3 class="faq__q">会持续耗电吗？</h3>
+            <svg class="faq__chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq__a">空闲时 CPU 占用约 1–2%，使用系统级通知监听服务监听事件，不做轮询，对车机续航影响极小。</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============== CTA ============== -->
+    <section class="cta" id="download">
+      <div class="cta__inner reveal">
+        <h2 class="cta__title">让车机识别你的音乐。</h2>
+        <p class="cta__sub">免费开源，30 秒内接入车载媒体中心。</p>
+        <a class="btn btn--primary btn--lg btn--icon-arrow" href="apk/DBTool_v1.0.1_signed_20260616_130116_101_jiagu_17133569.apk" download>下载 APK · v1.0.1</a>
+        <p class="cta__meta">v1.0.1 · 5.45 MB · Android 8.0+ · 无需 Root</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============== Footer ============== -->
+  <footer class="footer">
+    <div class="footer__cols">
+      <div class="footer__col">
+        <a class="footer__brand" href="#top">
+          <span class="footer__brand-mark" aria-hidden="true">D</span>
+          <span>DBTOOL</span>
+        </a>
+        <p class="footer__brand-line">
+          为车载信息娱乐系统打造的媒体桥接工具。<br />
+          透明、稳定、可控。
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>产品</h4>
+        <ul>
+          <li><a href="#features">功能</a></li>
+          <li><a href="#specs">性能</a></li>
+          <li><a href="#apps">兼容应用</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>资源</h4>
+        <ul>
+          <li><a href="apk/DBTool_v1.0.1_signed_20260616_130116_101_jiagu_17133569.apk" download>下载 APK v1.0.1</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="https://github.com/" rel="noopener">源代码</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>致谢</h4>
+        <ul>
+          <li>开源社区</li>
+          <li>贡献者</li>
+          <li>测试者</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>Copyright &copy; 2026 DBTOOL Team. All rights reserved.</span>
+      <a class="footer__to-top" href="#top" aria-label="返回顶部">↑&nbsp;Top</a>
+    </div>
+  </footer>
+
+  <!-- Reveal-on-scroll + sticky nav state + smooth anchor -->
+  <script>
+    (function () {
+      // 1) Reveal animation
+      var reveals = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('is-visible');
+              io.unobserve(e.target);
+            }
+          });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+        reveals.forEach(function (el) { io.observe(el); });
+      } else {
+        reveals.forEach(function (el) { el.classList.add('is-visible'); });
+      }
+
+      // 2) Sticky nav background on scroll
+      var nav = document.getElementById('nav');
+      function onScroll() {
+        if (!nav) return;
+        if (window.scrollY > 8) nav.classList.add('is-scrolled');
+        else nav.classList.remove('is-scrolled');
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
+
+</body>
+</html>
